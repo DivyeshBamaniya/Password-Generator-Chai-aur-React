@@ -32,7 +32,7 @@ function App() {
     PasswordRef.current?.select();
 
     // Incase we want to give range for selecting password
-    PasswordRef.current?.setSelectionRange(0,20);
+    // PasswordRef.current?.setSelectionRange(0,20);
     window.navigator.clipboard.writeText(Password);
   } , [Password])
 
